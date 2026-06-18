@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новости — Pink Soul's</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <div class="site-wrapper">
+        <header class="header">
+            <a href="../index.html" class="logo">
+                <img src="../images/logo.png" alt="Логотип Pink Soul's" class="logo__image">
+                <span class="logo__text">
+                    <span class="logo__line">PINK</span>
+                    <span class="logo__line">SOUL'S</span>
+                </span>
+            </a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="../index.html" class="nav__link">Главная</a></li>
+                    <li class="nav__item nav__item--dropdown">
+                        <button class="nav__link nav__dropdown-toggle" id="projectsDropdown">🚀 Проекты</button>
+                        <ul class="dropdown-menu" id="projectsDropdownMenu">
+                            <li class="dropdown-menu__item"><a href="game.html" class="dropdown-menu__link">⚖️ Эгида Равновесия</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav__item"><a href="news.html" class="nav__link nav__link--active">📰 Новости</a></li>
+                    <li class="nav__item"><a href="shop.html" class="nav__link">🛒 Магазин</a></li>
+                    <li class="nav__item"><a href="about.html" class="nav__link">👥 О нас</a></li>
+                </ul>
+            </nav>
+            <div class="header__actions">
+                <button class="search-button" id="searchButton" aria-label="Поиск">🔍</button>
+                <a href="support.html" class="btn btn--small btn--support">💗 Поддержать</a>
+            </div>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Меню">
+                <span></span><span></span><span></span>
+            </button>
+        </header>
+
+        <main class="main-content">
+            <section class="section">
+                <h1 class="section__title">📰 НОВОСТИ СТУДИИ</h1>
+                <p class="section__subtitle">Последние события и обновления</p>
+                <div class="news-list news-list--vertical">
+                    <article class="news-card news-card--vertical">
+                        <div class="news-card__date">20 апреля 2026</div>
+                        <h2 class="news-card__title">Формирование команды</h2>
+                        <p class="news-card__text">Основной костяк команды Pink Soul's сформирован! Геймдизайнер, пиксель-художник, программист, композитор и сценарист — все на борту.</p>
+                    </article>
+                    <article class="news-card news-card--vertical">
+                        <div class="news-card__date">01 мая 2026</div>
+                        <h2 class="news-card__title">Дизайн-документ «Эгиды Равновесия» завершён</h2>
+                        <p class="news-card__text">Мы закончили полный дизайн-документ игры! Это 10 разделов, включающих философию проекта, структуру нарратива, механику Эгиды, систему классов, кооперативные механики, крафт, техническую реализацию и план разработки. Документ станет нашим главным руководством на ближайший год разработки.</p>
+                    </article>
+                    <article class="news-card news-card--vertical">
+                        <div class="news-card__date">04 мая 2026</div>
+                        <h2 class="news-card__title">Запуск официального сайта Pink Soul's!</h2>
+                        <p class="news-card__text">Мы рады объявить о запуске нашего официального сайта! Теперь здесь будут публиковаться все новости о разработке «Эгиды Равновесия», дневники разработчиков и анонсы. Сайт выполнен в нашем фирменном пиксельно-розовом стиле. Надеемся, вам понравится!</p>
+                    </article>
+                    <article class="news-card news-card--vertical">
+                        <div class="news-card__date">10 мая 2026</div>
+                        <h2 class="news-card__title">Предложение идеи по создание собственного мерча Pink Soul's!</h2>
+                        <p class="news-card__text"> Были предложены идеи по созданию официального мерча в виде футболок, фигурок и кружек по игре "Эгида Равновесия". Идеи были опубликованыв в телеграмм-канал студии, официальный мерч будет запущен после непосредственно самого релиза игры. При предзаказе мерч идет в подарок! </p>
+                    </article>
+                    <article class="news-card news-card--vertical">
+                        <div class="news-card__date">18 мая 2026</div>
+                        <h2 class="news-card__title">Сроки увеличиваются!</h2>
+                        <p class="news-card__text">Нам не хватает ресурсов в виде человеческого труда, если ты хорошо пишешь эмбиэнты или круто кодишь, а может ты красиво рисуешь? Приглашаем на наш дискорд сервер для проведение собеседования в команду Pink Soul' s!</p>
+                    </article>
+                    <article class="news-card news-card--vertical">
+                        <div class="news-card__date">25 мая 2026</div>
+                        <h2 class="news-card__title">ОБНОВКА!</h2>
+                        <p class="news-card__text">Посмотрели на механик с другого угла, переработана боевая система и кооперативный режим, сеттинг игры изменен, классы переделаны!</p>
+                    </article>
+                    <article class="news-card news-card--vertical">
+                        <div class="news-card__date">05 июня 2026</div>
+                        <h2 class="news-card__title">Запуск официального телеграмм-канала!</h2>
+                        <p class="news-card__text">Следите за нами в телеграмме, наша жизнь, разработка, мемы и идеи к игре!</p>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__grid">
+                <div class="footer__col">
+                    <h4 class="footer__title">Pink Soul's</h4>
+                    <p class="footer__text">Пиксельная искра в мире геймдева</p>
+                    <p class="footer__text">© 2026 Все права защищены</p>
+                </div>
+                <div class="footer__col">
+                    <h4 class="footer__title">Навигация</h4>
+                    <ul class="footer__links">
+                        <li><a href="../index.html">Главная</a></li>
+                        <li><a href="game.html">Игра</a></li>
+                        <li><a href="news.html">Новости</a></li>
+                        <li><a href="shop.html">Магазин</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h4 class="footer__title">Соцсети</h4>
+                    <div class="footer__social-icons">
+                        <a href="https://discord.gg/wXTsxFkS6" class="social-icon" aria-label="Discord">
+                            <img src="../images/discord_logo.png" alt="Discord" width="24" height="24">
+                        </a>
+                        <a href="#" class="social-icon" aria-label="Telegram">
+                            <img src="../images/telegram_logo.png" alt="Telegram" width="24" height="24">
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=j-iheFkstFQ&pp=ygUN0YDQuNC6INGA0L7Quw%3D%3D" class="social-icon" aria-label="YouTube">
+                            <img src="../images/youtube_logo.png" alt="YouTube" width="24" height="24">
+                        </a>
+                        <a href="#" class="social-icon" aria-label="Patreon">
+                            <img src="../images/patreon_logo.png" alt="Patreon" width="24" height="24">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__col">
+                    <h4 class="footer__title">Контакты</h4>
+                    <p class="footer__text">Email: hello@pinksouls.ru</p>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>💗 Поддержите инди-разработчиков! 💗</p>
+            </div>
+        </footer>
+    </div>
+    <script src="../script.js"></script>
+</body>
+</html>

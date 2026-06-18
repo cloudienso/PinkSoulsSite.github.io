@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О нас — Pink Soul's</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <div class="site-wrapper">
+        <header class="header">
+            <a href="../index.html" class="logo">
+                <img src="../images/logo.png" alt="Логотип Pink Soul's" class="logo__image">
+                <span class="logo__text">
+                    <span class="logo__line">PINK</span>
+                    <span class="logo__line">SOUL'S</span>
+                </span>
+            </a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="../index.html" class="nav__link">Главная</a></li>
+                    <li class="nav__item nav__item--dropdown">
+                        <button class="nav__link nav__dropdown-toggle" id="projectsDropdown">🚀 Проекты</button>
+                        <ul class="dropdown-menu" id="projectsDropdownMenu">
+                            <li class="dropdown-menu__item"><a href="game.html" class="dropdown-menu__link">⚖️ Эгида Равновесия</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav__item"><a href="news.html" class="nav__link">📰 Новости</a></li>
+                    <li class="nav__item"><a href="shop.html" class="nav__link">🛒 Магазин</a></li>
+                    <li class="nav__item"><a href="about.html" class="nav__link nav__link--active">👥 О нас</a></li>
+                </ul>
+            </nav>
+            <div class="header__actions">
+                <button class="search-button" id="searchButton" aria-label="Поиск">🔍</button>
+                <a href="support.html" class="btn btn--small btn--support">💗 Поддержать</a>
+            </div>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Меню">
+                <span></span><span></span><span></span>
+            </button>
+        </header>
+
+        <main class="main-content">
+            <section class="section">
+                <h1 class="section__title">👥 О КОМАНДЕ</h1>
+                <p class="section__subtitle">Мы — Pink Soul's, пиксельная искра в мире геймдева</p>
+
+                <div class="about-block">
+                    <h2>Наша миссия</h2>
+                    <p>Мы создаём душевные пиксельные игры с глубокими сюжетами и уникальными механиками. Наша цель — чтобы каждый игрок почувствовал себя частью живого мира, где его выборы имеют значение.</p>
+                    <p>Девиз команды: «Мы создаём не игру. Мы создаём мир, который запомнят».</p>
+                </div>
+
+                <div class="about-block">
+                    <h2>Команда</h2>
+                    <div class="team-grid">
+                        <div class="team-member">
+                            <div class="team-member__avatar">🧙</div>
+                            <h3>Dragonomi</h3>
+                            <p>Владислав — лид команды, геймдизайнер, сценарист</p>
+                        </div>
+                        <div class="team-member">
+                            <div class="team-member__avatar">🎨</div>
+                            <h3>Artifex_3000</h3>
+                            <p>Святослав — пиксельный художник</p>
+                        </div>
+                        <div class="team-member">
+                            <div class="team-member__avatar">💻</div>
+                            <h3>Cloudien</h3>
+                            <p>Имир — программист</p>
+                        </div>
+                        <div class="team-member">
+                            <div class="team-member__avatar">🎵</div>
+                            <h3>n999_nine</h3>
+                            <p>Александр — композитор</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-block">
+                    <h2>Вакансии</h2>
+                    <p>Мы растем! Если вы разделяете нашу страсть к пиксельным RPG — пишите на <strong>jobs@pinksouls.ru</strong></p>
+                    <ul class="about-list">
+                        <li>Unity/Godot разработчик (удалёнка)</li>
+                        <li>Маркетолог игровых проектов</li>
+                        <li>Тестировщик (на общественных началах)</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__grid">
+                <div class="footer__col">
+                    <h4 class="footer__title">Pink Soul's</h4>
+                    <p class="footer__text">Пиксельная искра в мире геймдева</p>
+                    <p class="footer__text">© 2026 Все права защищены</p>
+                </div>
+                <div class="footer__col">
+                    <h4 class="footer__title">Навигация</h4>
+                    <ul class="footer__links">
+                        <li><a href="../index.html">Главная</a></li>
+                        <li><a href="game.html">Игра</a></li>
+                        <li><a href="news.html">Новости</a></li>
+                        <li><a href="shop.html">Магазин</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h4 class="footer__title">Соцсети</h4>
+                    <div class="footer__social-icons">
+                        <a href="https://discord.gg/wXTsxFkS6" class="social-icon" aria-label="Discord">
+                            <img src="../images/discord_logo.png" alt="Discord" width="24" height="24">
+                        </a>
+                        <a href="#" class="social-icon" aria-label="Telegram">
+                            <img src="../images/telegram_logo.png" alt="Telegram" width="24" height="24">
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=j-iheFkstFQ&pp=ygUN0YDQuNC6INGA0L7Quw%3D%3D" class="social-icon" aria-label="YouTube">
+                            <img src="../images/youtube_logo.png" alt="YouTube" width="24" height="24">
+                        </a>
+                        <a href="#" class="social-icon" aria-label="Patreon">
+                            <img src="../images/patreon_logo.png" alt="Patreon" width="24" height="24">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__col">
+                    <h4 class="footer__title">Контакты</h4>
+                    <p class="footer__text">Email: hello@pinksouls.ru</p>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>💗 Поддержите инди-разработчиков! 💗</p>
+            </div>
+        </footer>
+    </div>
+    <script src="../script.js"></script>
+</body>
+</html>
